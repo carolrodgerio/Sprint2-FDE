@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-xl-1512px">
+      <div class="frame-parent">
+        <div class="pai-e-mail-parent">
+          <div class="pai-e-mail">
+            <div class="pai-e-mail-child"></div>
+            <input class="e-mail" placeholder="Digite seu e-mail" type="text" />
+
+            <img class="x-icon" alt="" src="./public/x.svg" />
+          </div>
+          <div class="pai-senha">
+            <div class="pai-senha-child"></div>
+            <div class="div">••••••••</div>
+            <img class="x-icon1" alt="" src="./public/x-1.svg" />
+          </div>
+        </div>
+        <div class="esqueceu-sua-senha-wrapper">
+          <div class="esqueceu-sua-senha">Esqueceu sua senha?</div>
+        </div>
+      </div>
+      <section class="login-xl-1512px-inner">
+        <div class="frame-group">
+          <div class="frame-wrapper">
+            <div class="rea-de-clientes-parent">
+              <h1 class="rea-de-clientes">Área de Clientes</h1>
+              <div class="frame-container">
+                <div class="frame-div">
+                  <div class="wrapper-background-parent">
+                    <div class="wrapper-background">
+                      <img
+                        class="background-icon"
+                        alt=""
+                        src="./public/background.svg"
+                      />
+                    </div>
+                    <img
+                      class="pai-logo"
+                      loading="lazy"
+                      alt=""
+                      src="./public/pai--logo@2x.png"
+                    />
+                  </div>
+                  <p class="caso-voc-ainda-container">
+                    <span class="caso-voc-ainda-no-seja-um-cl">
+                      <span class="caso-voc-ainda"
+                        >Caso você ainda não seja um cliente PAI,</span
+                      >
+                    </span>
+                    <span class="faa-seu-cadastro-aqui">
+                      <span class="faa-seu-cadastro"
+                        >faça seu cadastro aqui.</span
+                      >
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-parent1">
+            <div class="rectangle-parent">
+              <div class="frame-child" id="rectangle"></div>
+              <b class="fazer-login">Fazer login</b>
+            </div>
+            <div class="frame-parent2">
+              <div class="frame-parent3">
+                <div class="line-wrapper">
+                  <div class="frame-item"></div>
+                </div>
+                <div class="ou-faa-login">Ou faça login com</div>
+                <div class="line-container">
+                  <div class="frame-inner"></div>
+                </div>
+              </div>
+              <div class="google-parent">
+                <img
+                  class="google-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/google.svg"
+                />
+
+                <button class="apple">
+                  <div class="apple-child"></div>
+                  <img class="shape-icon" alt="" src="./public/shape.svg" />
+                </button>
+                <button class="facebook">
+                  <div class="facebook-child"></div>
+                  <img class="shape-icon1" alt="" src="./public/shape-1.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./incio-x-l1512px.html";
+        });
+      }
+      </script>
+  </body>
+</html>
